@@ -1,6 +1,6 @@
-##### This scenario is based on a real cloud breach regarding Capital One's 2019 data breach that affected over 100 million customers.
+# This scenario is based on a real cloud breach regarding Capital One's 2019 data breach that affected over 100 million customers.
 
-##### This scenario starts off by providing a public IP address for the targeted EC2 instance. After querying the instance's metadata service, the credentials can be used to obtain sensitive data in S3 buckets.
+# This scenario starts off by providing a public IP address for the targeted EC2 instance. After querying the instance's metadata service, the credentials can be used to obtain sensitive data in S3 buckets.
 
 [CloudGoat Scenario](https://rhinosecuritylabs.com/aws/capital-one-cloud_breach_s3-cloudgoat/)
 
@@ -48,6 +48,8 @@ aws sts get-caller-identity --profile s3_breach
 
 [SneakyEndpoints to hide from GuardDuty](https://github.com/Frichetten/SneakyEndpoints)
 
+- GuardDuty Alerts Description when running `aws sts get-caller-identity` 
+
 ![[GuardDuty IAM finding types - Amazon GuardDuty.png]]
 
 ![[GuardDuty IAM finding types - Amazon GuardDuty_2.png]]
@@ -59,6 +61,7 @@ aws ssm start-session --tasrget "instance id"
 ```
 
 - List the inventory using cloudfox
+
 ```bash
 ./cloudfox aws --profile s3_breach -v2 inventory
 ```
