@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Tools/Enumeration.md",
+                "file": "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Tools/Enumeration.md",
+                "file": "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Tools/Enumeration.md",
+                "file": "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Tools/Enumeration.md"
+                "file": "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3.md"
               }
             }
           }
@@ -185,9 +185,9 @@
   },
   "active": "ea7ab9f7df1b9df7",
   "lastOpenFiles": [
+    "AWS/Tools/Enumeration.md",
     "AWS/Tools/Defense Evasion.md",
     "AWS/Tools/Exploitation.md",
-    "AWS/Tools/Enumeration.md",
     "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3.md",
     "AWS/Tools",
     "AWS/AWS_CloudGoat/cloud_breach_s3/s3_breach_4.png",

