@@ -78,4 +78,4 @@ aws ssm start-session --tasrget "instance id"
 aws --profile $profile s3 cp s3://cg-cardholder-data-bucket-cloud-breach-s3-cgida870e58dn2/ ./s3-buckets/cg-cardholder-data-bucket-cloud-breach-s3-cgida870e58dn2 --recursive
 ```
 
-![[s3_breach_4.png]]
+![breach_4](s3_breach_4.png)
