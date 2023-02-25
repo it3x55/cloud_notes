@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 363.5
   },
   "right": {
     "id": "a88d83817aaec437",
@@ -185,19 +185,22 @@
   },
   "active": "ea7ab9f7df1b9df7",
   "lastOpenFiles": [
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM_finding_types_Amazon_GuardDuty_2.png",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/README.md",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM_finding.md",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM_finding types_Amazon_GuardDuty_2.png",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM_finding_types_Amazon_GuardDuty.png",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM finding_types_Amazon_GuardDuty.png",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM finding types_Amazon_GuardDuty_2.png",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty_IAM finding types_Amazon GuardDuty_2.png",
+    "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3_CloudGoat_Scenario.png",
     "AWS/Tools/Enumeration.md",
     "AWS/Tools/Defense Evasion.md",
     "AWS/Tools/Exploitation.md",
-    "AWS/AWS_CloudGoat/cloud_breach_s3/README.md",
     "AWS/Tools",
     "AWS/AWS_CloudGoat/cloud_breach_s3/s3_breach_4.png",
     "AWS/AWS_CloudGoat/cloud_breach_s3/s3_breach_3.png",
     "AWS/AWS_CloudGoat/cloud_breach_s3/s3_breach_2.png",
-    "AWS/AWS_CloudGoat/cloud_breach_s3/s3_breach_1.png",
-    "Pasted image 20230223205453.png",
-    "AWS/AWS_CloudGoat/cloud_breach_s3/cloud_breach_s3_CloudGoat_Scenario.png",
-    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty IAM finding types - Amazon GuardDuty_2.png",
-    "AWS/AWS_CloudGoat/cloud_breach_s3/GuardDuty IAM finding types - Amazon GuardDuty.png",
     "AWS/AWS_CloudGoat/cloud_breach_s3.md",
     "AWS/AWS_CloudGoat/cloud_breach_s3",
     "README.md",

